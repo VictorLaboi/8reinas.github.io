@@ -1,0 +1,23 @@
+table,td,tr{
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 400px;/*Se aplica a la tabla*/
+    height: 50px;
+
+}
+
+tr:nth-child(even)
+td:nth-child(even),
+tr:nth-child(odd)
+td:nth-child(odd)
+{
+    background-color: #a18262;
+}
+
+tr:nth-child(odd)
+td:nth-child(even),
+tr:nth-child(even)
+td:nth-child(odd)
+{
+    background-color: #ffd093;
+}
